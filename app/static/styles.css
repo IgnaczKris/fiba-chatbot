@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.vmcdn.ca/f/files/shared/sports/basketball-adobestock_139516761.jpeg;w=1200;h=800;mode=crop'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden; 
+}
+
+.chat-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    overflow: auto; 
+}
+
+.chat-title {
+    margin-top: 20px;
+    color: white;
+    font-style: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+#chat-window {
+    height: 500px; 
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(249, 249, 249, 0.8); 
+    backdrop-filter: blur(10px); 
+}
+
+/* User Message Styling */
+#chat-window .user-message {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgba(224, 243, 255, 0.8);
+    text-align: left;
+}
+
+#chat-window .user-message:last-child {
+    margin-bottom: 0;
+}
+
+#chat-window .user-message strong {
+    color: #007bff;
+}
+
+/* Bot Message Styling */
+#chat-window .bot-message {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgba(224, 255, 227, 0.8);
+    text-align: left;
+}
+
+#chat-window .bot-message:last-child {
+    margin-bottom: 0;
+}
+
+#chat-window .bot-message strong {
+    color: #04b559;
+}
+
+#user-input {
+    width: calc(100% - 80px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#send-button {
+    width: 70px;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .chat-container {
+        margin: 20px auto;
+        padding: 10px;
+        max-width: 90%;
+    }
+
+    #chat-window {
+        height: 300px;
+    }
+}
+
+@media (min-width: 601px) {
+    .chat-container {
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 600px;
+    }
+
+    #chat-window {
+        height: 400px;
+    }
+}

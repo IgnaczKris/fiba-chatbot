@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basketball Referee Bot</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/basketball-referee-2827628-2350180.png?f=webp&w=256">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1 class="chat-title">FIBA Basketball Referee Chatbot</h1>
+        <div class="chat-container">
+            <div id="chat-window">
+                <!-- Messages -->
+            </div>
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button id="send-button">Send</button>
+        </div>
+        <script src="{{ url_for('static', filename='chat.js') }}"></script>
+    </body>
+</html>
