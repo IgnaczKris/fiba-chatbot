@@ -117,6 +117,7 @@ function setApiKey(key){
             submitting('success')
            }
         else if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 403){
+            console.log(xhr.responseText);
             submitting('fail');
         }
         };
