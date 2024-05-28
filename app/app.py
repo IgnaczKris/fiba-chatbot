@@ -118,7 +118,7 @@ def question():
             print(e.message)
         except Exception as e:
             answer = "An unknown error occurred. Please try again."
-            answer = e.message
+            answer = e
 
     else:
         answer = "OpenAI API key isn't set!"

@@ -104,19 +104,6 @@ body {
     backdrop-filter: blur(10px); /* Apply a blur effect to the background */
 }
 
-#chat-window .message {
-    font-size: 30px;
-    display: flex;
-    justify-content: flex-start; /* Align messages to the left */
-    margin-top: 50px; /* Increased margin */
-    padding: 12px;
-    border-radius: 8px;
-    background-color: rgba(50, 50, 50, 0.9); /* Semi-transparent dark gray background */
-    color: white;
-    text-align: left; /* Align text to the left */
-    max-width: 80%; /* Ensure messages do not take up the entire width */
-}
-
 
 #user-input {
     width: calc(100% - 80px);
@@ -128,40 +115,30 @@ body {
     color: #ddd; /* Light text color */
 }
 
+
+
 .user-message{
-  font-size: 30px;
-  display: flex;
-  justify-content: flex-start; /* Align messages to the left */
-  margin-top: 50px; /* Increased margin */
-  padding: 12px;
-  border-radius: 8px;
-  background-color: rgba(50, 50, 50, 0.9); /* Semi-transparent dark gray background */
-  color: white;
-  text-align: left; /* Align text to the left */
-  max-width: 80%;
-}
-.user-message strong{
-    margin-right: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: top;
 }
 
 .user-message svg{
     margin-right: 5px;
-    font-size: 15px;
+    min-width: 30px;
+    max-width: 30px;
 }
 
 .bot-message{
     margin-bottom: 20px;
     display: flex;
-    align-items: center;
-}
-
-.bot-message strong{
-    margin-right: 8px;
+    align-items: top;
 }
 
 .bot-message svg{
     margin-right: 5px;
-    font-size: 10px;
+    min-width: 30px;
+    max-width: 30px;
 }
 
 .input-box{
