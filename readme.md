@@ -4,6 +4,9 @@ This chatbot is generating the answer to your questions about basketball rules b
 
 # Screenshots
 
+![Home Page](https://raw.github.com/IgnaczKris/fiba-chatbot/blob/master/screenshots/main_page.png)
+![Conversation](https://raw.github.com/IgnaczKris/fiba-chatbot/blob/master/screenshots/conversation.png)
+![Setting the API Key](https://raw.github.com/IgnaczKris/fiba-chatbot/blob/master/screenshots/set_api_key.png)
 
 # How does it work?
 
